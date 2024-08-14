@@ -26,3 +26,12 @@ Banco de Dados:
 Um banco de dados é uma coleção organizada de dados com facil  acesso, gerenciada e atualizada. 
 
 Ref: https://www.oracle.com/database/what-is-database/
+
+
+Aula 2
+
+A) A Lei Geral de Proteção de Dados (LGPD) no Brasil tem uma relação significativa com os data centers, que são essenciais para o armazenamento, processamento e gerenciamento de dados. A LGPD estabelece normas e requisitos que afetam diretamente como os data centers operam e como os dados pessoais são tratados. Por exemplo, a segurança da informação A LGPD exige que dados pessoais sejam protegidos contra acesso não autorizado, vazamentos e outras ameaças. Data centers devem implementar medidas de segurança robustas, como criptografia, controles de acesso físico e lógico, e monitoramento contínuo para garantir a integridade e a confidencialidade dos dados pessoais.a LGPD impõe uma série de requisitos e responsabilidades aos data centers no Brasil para garantir que os dados pessoais sejam protegidos de maneira adequada. 
+
+B1) O formato de arquivo de dados abertos garante o acesso a dados a longo prazo e indica uma especificação técnica de dominio publico. Um exemplo disso é o HTML. O formato de arquivo de dados proprietário são definidos por interesses privados e o usuario corre o risco de perder as inforemações contidas no arwuivo caso software pare de funcionar. Um exemplo de um formato proprietário é o PPT.
+
+B2) Os dados publicos são informações disponibilizadas para o publico em geral, sem restrições de privacidade, segurança ou controle de acesso, podendo ser modificados, analisados e compartilhados. No entanto, existem diversas implicações como por exemplo, a privacidade e proteção de dados, é importante garantir que as informações pessoais sensiveis não sejam incluidas. Outro exemplo de implicação é a segurança da informação contra abusos, haja vista que a ausencia de restrições de acesso não deve significar a ausencia de segurança.
