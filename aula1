@@ -35,3 +35,43 @@ A) A Lei Geral de Proteção de Dados (LGPD) no Brasil tem uma relação signifi
 B1) O formato de arquivo de dados abertos garante o acesso a dados a longo prazo e indica uma especificação técnica de dominio publico. Um exemplo disso é o HTML. O formato de arquivo de dados proprietário são definidos por interesses privados e o usuario corre o risco de perder as inforemações contidas no arwuivo caso software pare de funcionar. Um exemplo de um formato proprietário é o PPT.
 
 B2) Os dados publicos são informações disponibilizadas para o publico em geral, sem restrições de privacidade, segurança ou controle de acesso, podendo ser modificados, analisados e compartilhados. No entanto, existem diversas implicações como por exemplo, a privacidade e proteção de dados, é importante garantir que as informações pessoais sensiveis não sejam incluidas. Outro exemplo de implicação é a segurança da informação contra abusos, haja vista que a ausencia de restrições de acesso não deve significar a ausencia de segurança.
+
+Aula 3
+
+1)
+
+Java é uma linguagem compilada, isto é, a máquina utiliza um compilador para lê-la. A maquina só reconhece apenas 0 e 1, apenas binarios, o java pega a linguagem dos "humanos" e transforma em uma linguagem binária (linguagem de maquina). Se utiliza muito em desenvolvimento de aplicativos Android.
+
+Javascript é uma linguagem interpretada, isto é, a máquina não precisa de um compilador para lê-la. A linguagem interpretada, a maquina interpreta o código a nivel do que a pessoa roda.  Se utiliza muito em desenvolvimento de web.
+
+C, apesar de ser uma linguagem compilada, é uma linguagem de mais baixo nivel, ou seja, com mais performance com relação as outras (rapidez). Se utiliza muito em desenvolvimento de sistemas operacionais. 
+
+2) Código de java:
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int sum = a + b;
+        System.out.println("A soma é: " + sum);
+    }
+}
+
+Código de Javascript:
+
+let a = 5;
+let b = 10;
+let sum = a + b;
+console.log("A soma é: " + sum);
+
+Código de C:
+
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b = 10;
+    int sum = a + b;
+    printf("A soma é: %d\n", sum);
+    return 0;
+
