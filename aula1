@@ -75,3 +75,25 @@ int main() {
     printf("A soma é: %d\n", sum);
     return 0;
 
+Aula 4
+
+1) Estrutura de repetição:
+
+Código: 
+
+profissão = ('Advogado', 'Medico', 'Dentista', 'Jornalista')
+for profissão in profissão:
+    print (profissão)
+
+2) Estrutura de tomada de decisão 
+
+#Variável CNH
+idade = 15
+
+#Condição Para Verificar a Idade
+if idade >=18:
+    print("Autorizado. Uhuu!!!")
+else:
+    print("Poxa vida, não pode!")
+
+
