@@ -96,4 +96,178 @@ if idade >=18:
 else:
     print("Poxa vida, não pode!")
 
+Aula 5
+
+1- def bubbleSort(alist) :
+for passnum in range(len(alist)-1,0,-1):
+houve_troca = False
+for i in range(passnum):
+if alist[i] > alist[i+1]:
+alist[i], alist[i+1] = alist[i+1], alist[i]
+houve_troca = True
+if not houve_troca:
+break
+
+# Exemplo de uso
+
+alist = [64, 34, 25, 12, 22, 11, 90]
+
+print( "Lista original:", alist)
+
+bubbleSort(alist)
+
+print("Lista ordenada:", alist)
+
+Saída do programa:
+
+Lista original: [64, 34, 25, 12, 22, 11, 90] Lista ordenada: [11, 12, 22, 25, 34, 64, 90]
+
+2- implemente um algorítmo que imprima apenas as vogais de uma determinada palavra ou frase
+
+def imprimir_vogais (texto):
+
+# Definir as vogais
+
+vogais = "aeiouAEIOU"
+
+# Iterar sobre cada caractere no texto
+
+resultado = [letra for letra in texto if letra in vogais]
+
+# Imprimir as vogais encontradas
+
+print ("Vogais encontradas:", "". join(resultudo))
+
+# Exemplo de uso
+
+frase = "Bom dia Família" imprimir_vogais (frase)
+
+Saída do programa:
+
+Vogais encontradas: oi a ai a
+
+Aula 6 
+
+1) 
+
+def imprimir_informacoes(nome, idade, cidade):
+    # Usando o argumento sep para definir o separador entre os parâmetros
+    # e o argumento end para definir o final da linha
+    print(f'Nome: {nome}', f'Idade: {idade}', f'Cidade: {cidade}', sep=' | ', end='\n')
+
+# Exemplo de uso da função
+imprimir_informacoes(
+imprimir_informacoes
+
+imprimir_inf
+
+imprimi
+'João', 30, 'São Paulo')
+
+2) 
+
+def calculadora():
+    # Solicita ao usuário o primeiro número
+    num1 = float(input("Digite o primeiro número: "))
+    # Solicita ao usuário o segundo número
+    num2 = float(input("Digite o segundo número: "))
+    # Solicita ao usuário a operação desejada
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+    # Calcula o resultado com base na operação
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero não é permitida.")
+            return
+    else:
+        print("Operação inválida. Por favor, escolha +, -, * ou /.")
+        return
+
+    # Imprime o resultado
+    print(f"O resultado de {num1} {operacao} {num2} é {resultado}")
+
+# Exemplo de uso da função
+calculadora()
+
+
+3) 
+
+def lista_de_compras():
+    
+    
+# Solicita ao usuário para digitar os itens separados por vírgula
+    entrada = 
+    e
+input("Digite os itens da lista de compras, separados por vírgula: ")
+    
+    
+    
+# Divide a entrada em uma lista usando a vírgula como delimitador
+    itens = [item.strip() 
+    itens = [item.strip() 
+
+    itens = [item.
+
+    itens = [it
+
+    iten
+
+    i
+
+ 
+for item in entrada.split(',')]
+    
+ 
+# Imprime cada item em uma linha separada com numeração
+    
+   
+for i, item in enumerate(itens, start=1):
+        
+   
+print(f"Item {i}: {item}")
+
+4)
+
+def celsius_para_fahrenheit():
+    try:
+        # Solicita ao usuário a temperatura em graus Celsius
+        celsius = float(input("Digite a temperatura em graus Celsius: "))
+        
+        # Converte a temperatura para Fahrenheit usando a fórmula
+        fahrenheit = (celsius * 9/5) + 32
+        
+        # Imprime o resultado
+        print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f}")
+    
+    except ValueError:
+        print("Entrada inválida. Por favor, insira um número válido para a temperatura.")
+
+5)
+
+def coletar_nomes():
+    nomes = []  # Inicializa uma lista vazia para armazenar os nomes
+
+    while True:  # Inicia um loop que vai continuar até ser interrompido
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")  # Pede ao usuário para digitar um nome
+
+        if nome.lower() == 'sair':  # Verifica se o usuário digitou 'sair'
+            break  # Sai do loop se o nome for 'sair'
+
+        nomes.append(nome)  # Adiciona o nome à lista de nomes
+
+    # Após sair do loop, imprime todos os nomes que foram digitados
+    print("Nomes digitados:")
+    for nome in nomes:  # Itera sobre a lista de nomes
+        print(nome)  # Imprime cada nome em uma nova linha
+
+# Chama a função para executar
+coletar_nomes()
 
